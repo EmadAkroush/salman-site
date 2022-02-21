@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="208.751" height="208.751" viewBox="0 0 208.751 208.751">
+  <defs>
+    <filter id="circle-our-comment" x="0" y="0" width="208.751" height="208.751" filterUnits="userSpaceOnUse">
+      <feOffset dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-color="#2c2e30" flood-opacity="0.094"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#circle-our-comment)">
+    <rect id="circle-our-comment-2" data-name="circle-our-comment" width="98.858" height="98.858" rx="25.5" transform="matrix(0.84, 0.54, -0.54, 0.84, 89.84, 14)" fill="#2f5bea"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121.366" height="121.366" viewBox="0 0 121.366 121.366">
+  <defs>
+    <filter id="Rectangle_Copy_2" x="0" y="0" width="121.366" height="121.366" filterUnits="userSpaceOnUse">
+      <feOffset dy="22" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-color="#2c2e30" flood-opacity="0.094"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_Copy_2)">
+    <rect id="Rectangle_Copy_2-2" data-name="Rectangle Copy 2" width="36.919" height="36.919" rx="18.459" transform="matrix(0.44, 0.9, -0.9, 0.44, 69.18, 14)" fill="#2f5bea"/>
+  </g>
+</svg>
