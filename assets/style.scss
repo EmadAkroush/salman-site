@@ -4,6 +4,7 @@ $third-text-color : #2C4472;
 $fourth-text-color : #656464;
 $five-text-color : #0A093D;
 $six-text-color : #217BF4;
+$background-color-mobile : #E8EAED;
 
 *{
     margin: 0px;
@@ -107,6 +108,7 @@ $six-text-color : #217BF4;
 }
 .mobile-div{
     overflow-x: clip;
+    
     .mobile-div-path{
         position: absolute;
         right: 38%;
@@ -122,7 +124,7 @@ $six-text-color : #217BF4;
         
         height: 340px;
      @media only screen and (max-width: 460px){
-    
+     background-color: $background-color-mobile;
      .mobile-div-img{
         width: 355px;
         height: 360px;
@@ -152,6 +154,7 @@ $six-text-color : #217BF4;
     margin-top: 0;
     line-height: 3rem;
     position: relative;
+    
    h1{
         text-align: center;
         color: $five-text-color;
@@ -214,8 +217,30 @@ $six-text-color : #217BF4;
            .boxes{
             grid-template-columns: auto;
             margin: 0 auto;
+            border-radius: 15px;
+            grid-gap: 20px;
+            width: 88%;
+            padding-bottom: 40px;
            }
-         
+           background-color: $background-color-mobile;
+           .box1{
+            background-color:$first-text-color;
+           }
+           .box2{
+            background-color:$first-text-color;
+           }
+           .box3{
+            background-color:$first-text-color;
+           }
+           .box4{
+            background-color:$first-text-color;
+           }
+           .box5{
+            background-color:$first-text-color;
+           }
+           .box6{
+            background-color:$first-text-color;
+           }
     }
 }
 
@@ -239,7 +264,8 @@ $six-text-color : #217BF4;
         color: $first-text-color;
     }
     @media only screen and (max-width: 460px){
-        margin-top: 32px;
+        background-color: $background-color-mobile;
+        margin-top: 0;
         height: 210px;
         .salman-text-p{
             padding-top:20px;
@@ -255,10 +281,12 @@ $six-text-color : #217BF4;
 }
 
 .our-blog{
+    
+    .our-blog-mother-body{
     width: 90%;
     margin: 0 auto;
     margin-top: 80px;
-
+    }
     .down-p{
         color: $fourth-text-color;
     }
@@ -389,6 +417,7 @@ $six-text-color : #217BF4;
 
     }
     @media only screen and (max-width: 460px){
+         
         .our-blog-mother{
             grid-template-columns: auto;
         }
@@ -410,6 +439,10 @@ $six-text-color : #217BF4;
         .our-blog-div{
             width: 90%;
         }
+        .our-blog-p{
+            display: none;
+        }
+        background-color: $background-color-mobile;
     }
   }
   .our-options{
@@ -509,7 +542,10 @@ $six-text-color : #217BF4;
     .our-options-text-mobile{
         display: none;
     }
+    
     @media only screen and (max-width: 460px){
+        background-color: $background-color-mobile;
+        
         .our-option-img-path1{
             display: none;
         }
@@ -517,6 +553,7 @@ $six-text-color : #217BF4;
             display: none;
         }
         .our-options-inside{
+            background-image: url('./image/background-specials.png');
             grid-template-columns: 5% 90% 5%;
             height: 357px;
             grid-gap: 0;
@@ -534,7 +571,7 @@ $six-text-color : #217BF4;
         }
         .div2-box{
             padding: 10px;
-            height: 280;
+            height: 235px;
             width: 85%;
         }
         .our-options-img{
@@ -745,6 +782,7 @@ $six-text-color : #217BF4;
           background-color: $first-text-color;
           border-radius: 10px;
           padding: 25px;
+          overflow: initial;
       }
       .our-organization-down{
         display: grid;
@@ -754,6 +792,7 @@ $six-text-color : #217BF4;
         background-color: $first-text-color;
         border-radius: 10px;
         padding: 25px;
+        overflow: initial;
     }
       .our-organization-inside-box{
           display: grid;
@@ -768,6 +807,7 @@ $six-text-color : #217BF4;
           height: 70%;
           margin-bottom: 50px;
           justify-content: center;
+          overflow: initial;
 
 
       }
@@ -775,6 +815,9 @@ $six-text-color : #217BF4;
           width: 50px;
          
       }
+      .our-organization-boxes-mobile{
+        display: none;      
+     }
       @media only screen and (max-width: 460px){
         .our-organization-inside{
             grid-template-columns: auto;
@@ -797,9 +840,16 @@ $six-text-color : #217BF4;
         .our-organization-img img{
             height: 440px;
             width: 100%;
-          
         }
-     
+        .our-organization-boxes-mobile{
+            display: block;
+            margin: 0 auto;      
+         }
+         .our-organization-up-mobile{
+             width: 300px;
+             border-radius: 15px;
+             margin: 15px auto;
+         }
       }
   }
   .our-comments{
