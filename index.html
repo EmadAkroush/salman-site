@@ -4,28 +4,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/style.css">
+   <script src="./assets/script.js"></script>
 </head>
 <body>
+    
    <header class="header-salman">
-      
-    <nav class="nav-bar">
+       <div class="nav-salman" id="myid">
         <div class="right-div-icon">
             <img src="./assets/image/logo-header.png" alt="">
+          
         </div>
-        <ul class="nav-bar-ul">
-            <li class="nav-bar-li"> <a href="" class="nav-bar-a"> خانه </a>  </li>
-            <li class="nav-bar-li"> <a href="" class="nav-bar-a"> درباره ما  </a>  </li>
-            <li class="nav-bar-li"> <a href="" class="nav-bar-a"> تماس با ما  </a>  </li>
-            <li class="nav-bar-li"> <a href="" class="nav-bar-a"> اخبار   </a>  </li>
-            <li class="nav-bar-li"> <a href="" class="nav-bar-a"> گالری  </a>  </li>
-        </ul>
-        <div class="left-icon-nav-bar">
+    <div class="topnav" id="myTopnav">
+        
+        <a href="">خانه </a>
+        <a href="">درباره ما </a>
+        <a href="">تماس با ما</a>
+        <a href="">اخبار </a>
+        <a href=""> گالری </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+       
+      </div>
+      <div class="left-icon-nav-bar " id="hide">
             
-            <p>05138424562</p>
-            <img src="./assets/image/phone.png" alt="">
-        </div>
-    </nav>
+        <p>05138424562</p>
+        <img src="./assets/image/phone.png" alt="">
+    </div>
+    </div>
+  
      <h1 class="h1-header"> موسسه فرهنگی و هنری سلمان فارسی </h1>
      <p class="p-header">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، </p>
      <div class="header-brands">
@@ -444,6 +453,19 @@
             <img src="./assets/image/arrow-left.png" alt="">
         </div>
        </div>
+        <div class="our-products-inside-mobile">
+            <div class="our-products-svg">
+            <img src="./assets/image/arrow-right.png" alt="">
+            </div>
+            
+             <img src="./assets/image/dg.png" alt="" class="our-product-img">
+             <img src="./assets/image/bx.png" alt="" class="our-product-img">
+          
+            
+            <div class="our-products-svg">
+             <img src="./assets/image/arrow-left.png" alt="">
+         </div>
+       </div>
        <div class="our-product-more">
           <p>محصولات بیشتر</p>
           <img src="./assets/image/Group365.png" alt="">
@@ -451,6 +473,7 @@
        <img src="./assets/image/dot-vector-right.svg" alt="" class="our-product-img-path-right">
        
    </section>
+ 
    <section class="contact-us">
        <img src="./assets/image/contact-left.svg" alt="" class="contact-us-img-path-left">
        <h2 class="contact-us-h2">
