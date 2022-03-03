@@ -23,6 +23,10 @@ $background-color-mobile : #E8EAED;
       direction: rtl;
       font-family: Iran-Sans;
   }
+  a{
+      text-decoration: none;
+      color: none;
+  }
 .header-salman{
 
     .left-icon-nav-bar-img{
@@ -141,6 +145,8 @@ $background-color-mobile : #E8EAED;
     grid-template-columns: 1fr 1fr 1fr;
     width: 60%;
     overflow: initial;
+    z-index: 1;
+    position: relative;
     .direction-right{
         margin-right: 40px;
     }
@@ -234,7 +240,7 @@ $background-color-mobile : #E8EAED;
     content: "";
     position: absolute;
     color: #04AA6D;
-    background-image: url(./image/Path\ 27622.png);
+    background-image: url(./image/Path27622.png);
     background-repeat: no-repeat;
     width: 165px;
     height: 57px;
@@ -1105,15 +1111,19 @@ $background-color-mobile : #E8EAED;
        
 
     }
+  
     .our-products-svg img {
         width: 65px;
     }
     .our-product-more{
         display: grid;
-        grid-template-columns: 90% 10%;
-        width: 100px;
         margin: 0 auto;
         color: $first-text-color;
+        grid-template-columns: 80% 20%;
+        width: 174px;
+    }
+    .our-product-more-a{
+        text-decoration: none;
     }
     .our-product-more img {
        width: 35px;
@@ -1155,7 +1165,7 @@ $background-color-mobile : #E8EAED;
       text-align: center;
       color: $first-text-color;
       background-color: #141D5A;
-      height: 300px;
+      height: 360px;
       border-top: 1px solid white;
       position: relative;
       .contact-us-h2{
@@ -1164,15 +1174,16 @@ $background-color-mobile : #E8EAED;
       .contact-us-img-path-right{
          position: absolute;
          width: 200px;
-         right: 341px;
-         top: 63px
+         right: 198px;
+         top: 88px;
+        
          
       }
       .contact-us-img-path-left{
         position: absolute;
         width: 200px;
-        left: 290px;
-        top: 15px;
+        left: 187px;
+        top: 68px;
       }
       .cotact-us-p{
           padding-top: 20px;
@@ -1186,7 +1197,7 @@ $background-color-mobile : #E8EAED;
       }
       .contact-us-input{
           width: 40%;
-          height: 50px;
+          height: 65px;
           border-radius: 25px;
           
          
@@ -1256,6 +1267,7 @@ $background-color-mobile : #E8EAED;
       }
       .footer-salman-div-li{
           color: $fourth-text-color;
+          padding: 8px 0;
       }
       .icons-img{
           padding: 5px;
@@ -1270,6 +1282,9 @@ $background-color-mobile : #E8EAED;
         justify-content: space-between;
         padding: 10px 0 40px 0;
         
+    }
+    .footer-salman-icons{
+        margin-top: 10px;
     }
     .footer-salman-inside{
         display: grid;
