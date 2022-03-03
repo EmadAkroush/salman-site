@@ -673,6 +673,14 @@ body {
   display: none;
 }
 
+.our-options .div1-img {
+  width: 104px;
+}
+
+.our-options .div3-img {
+  width: 76px;
+}
+
 @media only screen and (max-width: 460px) {
   .our-options {
     background-color: #E8EAED;
